@@ -17,3 +17,12 @@ num2 = int(input("Type your second no.: "))
 
 x = np.lcm(num1, num2)
 print(x)
+
+"""
+Uri's comments:
+==============
+
+* Very good! This code works.
+* It's very good you used the np.lcm function. It's correct.
+
+"""

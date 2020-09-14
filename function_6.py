@@ -16,3 +16,13 @@ def guess_num():
 
 while not guess_num():
     print("Try Again")
+
+"""
+Uri's comments:
+==============
+
+* It's not what the assignment asked for. The assignment asked to print if
+  the guess is too big or too small and then guess again, but the number
+  should not change. Please try again.
+
+"""
