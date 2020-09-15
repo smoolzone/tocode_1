@@ -16,3 +16,12 @@ def guess_num():
 
 while not guess_num():
     print("Try Again")
+
+"""
+Uri's comments:
+==============
+
+* The assignment expects to guess the same number each time. And if the guess
+  is too big or too small, output "Too big" or "Too small".
+
+"""
