@@ -3,7 +3,7 @@ from collections import defaultdict
 #with open('/Users/smool/Documents/alan wats.rtf') as wordsfile:
     #words = [line.strip().lower() for line in wordsfile]
 
-words = ['dad', 'add', 'rome', 'bye']
+words = ['dad', 'add', 'dda', 'rome', 'emor', 'more', 'bye']
 
 
 anagrams = defaultdict(list)
@@ -13,8 +13,8 @@ for word in words:
     anagrams[key].append(word)
 
 
-#for key, value in anagrams.items():
-    #if len(value) > 1:
-     #   print(value)
+for key, value in anagrams.items():
+    if len(value) > 1:
+        print(value)
 
 print(anagrams)
