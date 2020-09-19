@@ -18,7 +18,7 @@ def get_above_average_grades(input_grads:list) -> list:
 
 print(get_above_average_grades(sys.argv[1:]))
 
-#grades = sys.argv
+
 
 #high_grades = [int(i) for i in grades if i > 70]
 
