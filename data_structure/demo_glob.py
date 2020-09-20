@@ -7,6 +7,7 @@ print(all_files)
 
 counter = {}
 
+
 for filename in all_files:
     _, ext = os.path.splitext(filename)
     try:
