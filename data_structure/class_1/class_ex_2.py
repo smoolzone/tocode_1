@@ -1,7 +1,6 @@
 class Invoice:
     vat = 0.17
 
-
     def print_item(self, name, price):
         print(f"{name}: {self.with_vat(price)}")
 
